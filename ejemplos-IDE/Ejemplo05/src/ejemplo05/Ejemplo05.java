@@ -24,6 +24,7 @@ public class Ejemplo05 {
         
         System.out.println("----------------");
         System.out.println(10 / 3.0 + 1);
+        System.out.println(10 / (3.0 + 1));
         
         System.out.println("----------------");
         System.out.println(10 % 3 );
@@ -33,6 +34,8 @@ public class Ejemplo05 {
         
         System.out.println("----------------");
         System.out.println(Math.sqrt(16));
+        
+        double m = Math.sqrt(16);
     }
 
 }
